@@ -59,3 +59,7 @@ li {
   margin-top: 50px;
   padding-right: 35px;
 }
+
+#computer-said {
+  font-family: monospace;
+}
