@@ -43,13 +43,18 @@ h3 {
   font-family: lobster, arial;
 }
 
-li {
-  list-style: none;
+#you-said, #computer-said {
   border: solid 5px skyblue;
   padding: 10px;
   font-size: 16pt;
-  margin-left: -50px;
   background-color: #D1D7E3;
+  display: none;
+}
+
+#you-said p, #computer-said p {
+  display: none;
+  font-weight: bold;
+  margin: 5px;
 }
 
 #computer-guy {
